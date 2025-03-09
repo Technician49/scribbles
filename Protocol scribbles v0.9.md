@@ -1,4 +1,4 @@
-# SCRIBBLES
+# SCRIBBLES - tapping into the communications
 I noticed that ALL commands that can be used are between brackets [  ]  
 Not all commands are embedded in all ATM models.. It sometimes gives a 'bad response'.  
 
@@ -8,8 +8,8 @@ If the FT232 USB device for reading Serial signals is not regognized on your PC,
 https://www.ftdichip.com/Drivers/VCP.htm  
 
 The notes are scribbles in no particular order.
-We dug up the cable and found a serial line..
-We tapped it and cross checked with the documentation we 'obtained'..
+We dug up the cable and found a serial line.. Turns out we can observe and interfere.  
+We tapped it, looked and cross-checked with the documentation we 'obtained'..
 
 ## [ListPrivateBankNr]
 Seems to work in residential areas where the high value private banking customers live.
