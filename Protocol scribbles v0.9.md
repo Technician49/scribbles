@@ -35,7 +35,7 @@ There seems to be a limit up until 250,-.
 Any Higher amount requires a SHA1 calculation over the fields in this exact form "bankaccount:amount" without the quotes.  
 SHA1 calculator e.g. at http://www.sha1-online.com/  
 Give the command like this:
-> [Dispense:accountnr:money][Hash]  
+> [Dispense:accountnr:money][Hash]
 Account number must be a valid one. There must be a way to get those..  
 Money is depicted as 123.50 so a dot '.' and not a comma ','  
 
