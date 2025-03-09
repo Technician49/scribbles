@@ -33,9 +33,10 @@ Without this, the plain text inserts will not work.
 This one is so cool!! I actually got it to give money.  
 There seems to be a limit up until 250,-.   
 Any Higher amount requires a SHA1 calculation over the fields in this exact form "bankaccount:amount" without the quotes.  
-SHA1 calculator e.g. at http://www.sha1-online.com/  
+SHA1 calculator e.g. at https://emn178.github.io/online-tools/sha1.html  
 Give the command like this:
-> [Dispense:accountnr:money][Hash]
+> [Dispense:accountnr:money][Hash]  
+
 Account number must be a valid one. There must be a way to get those..  
 Money is depicted as 123.50 so a dot '.' and not a comma ','  
 
@@ -43,7 +44,7 @@ Money is depicted as 123.50 so a dot '.' and not a comma ','
 This actually registers the ATM as the kind that also takes customer money and then makes a deposit.   
 I wonder If I can spoof messages here.   
 ATM123 is to be replaced by ATM + number (so 123 would be the number)
-Then the X is the Modulo 7 of the number. In the case of 123 it would be 6
+Then the X is the Modulo 9 of the number. In the case of 123 it would be 6
 
 ## [SetDepositOff:ATM123:X]
 Why use this one?  
