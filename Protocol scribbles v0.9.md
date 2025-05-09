@@ -37,14 +37,14 @@ Then **the X is the Modulo 9 of the number**. In the case of 123 it would be 6.
 Not really secure but perhaps invented for service engineers in the field without random generator.  
 Without this, the plain text inserts will not work.  
 
-## [Dispense:accountnr:money] or [Dispense:accountnr:money-hash]  
+## [Dispense:accountnr:money] or [Dispense:accountnr:money:hash]  
 This one is so cool!! we probably can fake a message to have the ATM dispense actual money.  
 There seems to be a limit up until 250,- (so 250.00) according to the documentation we  .. eeuh.. found.   
 
-Any amount abover 250,- **requires a SHA1 calculation** over the fields in this exact form "accountnumber:amount" without the quotes.  
+Any amount abover 250,- **requires a SHA1 calculation** over the fields in this exact form "accountnumber:amount" without the quotes and including the : character.  
 SHA1 calculator e.g. at https://emn178.github.io/online-tools/sha1.html  
 Give the command like this:
-> [Dispense:accountnr:money-hash]  
+> [Dispense:accountnr:money:hash]  
 
 Account number must be a valid one. There must be a way to get those..  
 The decimals in the money seems depicted as 123.50 so a dot '.' and not a comma ','  
