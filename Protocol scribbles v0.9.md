@@ -56,4 +56,4 @@ ATM123 is to be replaced by ATM + number (so 123 would be the number)
 Then the X is the Modulo 9 of the number. In the case of 123 it would be 6
 
 ## [SetDepositOff:ATM123:X]
-Why use this one? Must standard software option for this particular ATM model.
+Why use this one? Must standard software option for a particular ATM model that has the money slot to actually deposit.
